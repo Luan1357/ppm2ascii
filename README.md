@@ -26,11 +26,11 @@ gcc -Wall -Wextra -o ppm2ascii ppm2ascii.c
 ./ppm2ascii
 ```
 
-O programa solicita o nome do arquivo de imagem e gera um `.txt` com o mesmo nome base (ex.: `foto.ppm` → `foto.txt`).
+O programa solicita o nome do arquivo de imagem e gera um `.txt` com o mesmo nome base (ex.: `foto.ppm` → `foto.txt`). Para testar, informe `exemplos/gradiente.ppm`.
 
 ## Disciplina
 
-Programação Imperativa — PUCPR, 2026
+Programação Imperativa, PUCPR, 2026
 
 ## Tecnologias utilizadas
 
@@ -38,7 +38,9 @@ Programação Imperativa — PUCPR, 2026
 
 ## Estrutura do repositório
 
-- `ppm2ascii.c` — código-fonte do conversor.
+- `ppm2ascii.c`: código-fonte do conversor.
+- `exemplos/gradiente.ppm`: imagem de entrada de teste.
+- `exemplos/gradiente.txt`: saída ASCII gerada a partir dela.
 
 ## Contexto acadêmico
 
